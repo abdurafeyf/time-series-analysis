@@ -69,7 +69,7 @@ d3.csv("https://raw.githubusercontent.com/abdurafeyf/time-series-analysis/main/d
 var trace1 = {
   type: "scatter",
   mode: "lines",
-  name: 'BTC High',
+  name: 'BTC Actual',
   x: unpack(rows, 'ds'),
   y: unpack(rows, 'y'),
   line: {color: '#17BECF'}
