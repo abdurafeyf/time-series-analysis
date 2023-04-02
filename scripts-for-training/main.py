@@ -1,7 +1,7 @@
 import yfinance as yf
 from prophet import Prophet
 # Get the data from yahoo API for the last 5 years
-df = yf.Ticker("BTC").history(period='5y')
+df = yf.Ticker("NDX").history(period='max')
 
 # Reset index 
 df.reset_index(inplace=True)

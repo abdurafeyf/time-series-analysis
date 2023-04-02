@@ -8,7 +8,7 @@ d3.csv("https://raw.githubusercontent.com/abdurafeyf/time-series-analysis/main/a
 var trace1 = {
   type: "scatter",
   mode: "lines",
-  name: 'BTC Actual',
+  name: 'NASDAQ Actual',
   x: unpack(rows, 'ds'),
   y: unpack(rows, 'actual'),
   line: {color: '#17BECF'}
@@ -17,7 +17,7 @@ var trace1 = {
 var trace2 = {
   type: "scatter",
   mode: "lines",
-  name: 'BTC Forecasted',
+  name: 'NASDAQ Forecasted',
   x: unpack(rows, 'ds'),
   y: unpack(rows, 'trend'),
   line: {color: '#7F7F7F'}
@@ -26,7 +26,7 @@ var trace2 = {
 var data = [trace1,trace2];
 
 var layout = {
-  title: 'Time Series Forecasting for Bitcoin',
+  title: 'Time Series Forecasting for NASDAQ',
   xaxis: {
     autorange: true,
     range: ['2018-04-02', '2024-03-29'],
