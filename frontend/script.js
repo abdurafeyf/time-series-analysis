@@ -26,7 +26,7 @@ var trace2 = {
 var data = [trace1,trace2];
 
 var layout = {
-  title: 'Time Series with Rangeslider',
+  title: 'Time Series Forecasting for Bitcoin',
   xaxis: {
     autorange: true,
     range: ['2018-04-02', '2024-03-29'],
