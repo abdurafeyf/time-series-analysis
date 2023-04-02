@@ -16,4 +16,4 @@ fut = fbp.make_future_dataframe(periods=365)
 forecast = fbp.predict(fut)
 
 forecast['actual'] = df['y']
-forecast.to_csv("actual-and-forecasted.csv")
+forecast.to_csv("prophet_predicted.csv")
