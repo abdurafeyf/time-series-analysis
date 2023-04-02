@@ -1,4 +1,4 @@
-d3.csv("https://raw.githubusercontent.com/abdurafeyf/time-series-analysis/main/actual-and-forecasted.csv", function(err, rows){
+d3.csv("https://raw.githubusercontent.com/abdurafeyf/time-series-analysis/main/prophet_predicted.csv", function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
