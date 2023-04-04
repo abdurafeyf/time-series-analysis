@@ -37,12 +37,6 @@ var layout = {
           step: 'year',
           stepmode: 'backward'
         },
-        {
-          count: 6,
-          label: '6m',
-          step: 'month',
-          stepmode: 'backward'
-        },
         {step: 'all'}
       ]},
     rangeslider: {range: ['2018-04-02', '2024-03-29']},
