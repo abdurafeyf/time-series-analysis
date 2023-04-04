@@ -33,8 +33,8 @@ var layout = {
     rangeselector: {buttons: [
         {
           count: 1,
-          label: '1m',
-          step: 'month',
+          label: '1y',
+          step: 'year',
           stepmode: 'backward'
         },
         {
