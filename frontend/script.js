@@ -32,8 +32,8 @@ var layout = {
     range: ['2018-04-02', '2024-03-29'],
     rangeselector: {buttons: [
         {
-          count: 1,
-          label: '1y',
+          count: 1.5,
+          label: '1.5y',
           step: 'year',
           stepmode: 'backward'
         },
